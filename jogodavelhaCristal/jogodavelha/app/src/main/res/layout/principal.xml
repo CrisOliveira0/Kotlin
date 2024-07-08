@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/rg">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jogo da velha"
+        android:gravity="center"
+        android:fontFamily="sans-serif-black"
+        android:textSize="50sp"
+        android:textColor="#570202"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Formas de jogo"
+            android:gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:textSize="40sp"
+            android:textColor="#570202"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btjogadores"
+        android:layout_width="227dp"
+        android:layout_height="70dp"
+        android:layout_margin="10dp"
+        android:backgroundColor="@android:color/black"
+
+        android:onClick="buttonClick"
+        android:text="Jogar 2 jogadores" />
+
+    <Button
+        android:id="@+id/btrobo"
+        android:layout_width="227dp"
+        android:layout_height="70dp"
+        android:layout_margin="10dp"
+        android:backgroundColor="@android:color/black"
+        android:onClick="buttonClick"
+        android:text="Contra o robô" />
+
+    </LinearLayout>

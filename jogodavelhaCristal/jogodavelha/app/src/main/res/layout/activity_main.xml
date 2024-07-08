@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/luta1"
+    tools:context="gcc.holywater.jogodavelha.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            android:id="@+id/buttonUm"
+            android:background="@android:color/white"
+            android:onClick="buttonClick"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            android:id="@+id/buttonDois"
+            android:background="@android:color/white"
+            android:onClick="buttonClick"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            android:id="@+id/buttonTres"
+            android:background="@android:color/white"
+            android:onClick="buttonClick"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            android:id="@+id/buttonQuatro"
+            android:background="@android:color/white"
+            android:onClick="buttonClick"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            android:id="@+id/buttonCinco"
+            android:background="@android:color/white"
+            android:onClick="buttonClick"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            android:id="@+id/buttonSeis"
+            android:background="@android:color/white"
+            android:onClick="buttonClick"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            android:id="@+id/buttonSete"
+            android:background="@android:color/white"
+            android:onClick="buttonClick"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            android:id="@+id/buttonOito"
+            android:background="@android:color/white"
+            android:onClick="buttonClick"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            android:id="@+id/buttonNove"
+            android:background="@android:color/white"
+            android:onClick="buttonClick"   />
+
+    </LinearLayout>
+
+</LinearLayout>
